@@ -1,0 +1,1 @@
+docker container create --name mongodata --publish 27018:27017 --mount "type=bind,source=C:\Users\ASUS ROG GL502VM\Documents\Developments\Docker\docker-script\mongo-data,destination=/data/db" --eAC
